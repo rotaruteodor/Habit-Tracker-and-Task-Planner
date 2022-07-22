@@ -1,5 +1,6 @@
 # Habit-Tracker-and-Task-Planner
 An Android application for tracking habits and managing tasks with an emphasis on statistics and descriptive graphs.
+
 ![image](https://user-images.githubusercontent.com/108352567/176456344-5231990f-3a15-42a3-82bf-7704c85be756.png)
 ![image](https://user-images.githubusercontent.com/108352567/176456351-37d32214-7ae9-4fea-9125-7e1feb174853.png)
 ![image](https://user-images.githubusercontent.com/108352567/176456361-d4f2be18-983f-4d85-93b2-a7369a8474ce.png)
