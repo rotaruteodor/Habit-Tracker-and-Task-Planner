@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background_image"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".activities.AddTaskActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineMiddleVertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVerticalLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVerticalRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilTaskName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/main_transparent_white"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietTaskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:gravity="center"
+            android:hint="Task"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvSelectTaskDueDate"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corners_transparent_white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Due date"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@id/tilTaskName" />
+
+    <TextView
+        android:id="@+id/tvTaskOptionalFields"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="start"
+        android:text="Optional:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectTaskDueDate" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilTaskDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/main_transparent_white"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskOptionalFields">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietTaskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:gravity="center"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvSelectTaskPriority"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corners_transparent_white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Priority: Default (5)"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@id/tilTaskDescription" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewAddTaskCategories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/transparent"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectTaskPriority">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvSelectTaskCategory"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/round_corners_transparent_white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/russo_one"
+                android:gravity="center"
+                android:text="Category"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSelectTaskCategory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvSelectTaskCategory" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/tvAddTaskColor"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corners_transparent_white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Color"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
+        app:layout_constraintTop_toBottomOf="@id/cardViewAddTaskCategories" />
+
+
+    <TextView
+        android:id="@+id/tvAddTaskFinish"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Finish"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvAddTaskCancel"
+        app:layout_constraintTop_toBottomOf="@id/cardViewAddTaskCategories"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+    <TextView
+        android:id="@+id/tvAddTaskCancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tvAddTaskFinish"
+        app:layout_constraintStart_toStartOf="@id/guidelineMiddleVertical"
+        app:layout_constraintTop_toBottomOf="@id/cardViewAddTaskCategories"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "10%",
+    "minimumStrength": 0.1
+  },
+  {
+    "name": "20%",
+    "minimumStrength": 0.2
+  },
+  {
+    "name": "35%",
+    "minimumStrength": 0.35
+  },
+  {
+    "name": "50%",
+    "minimumStrength": 0.5
+  },
+  {
+    "name": "75%",
+    "minimumStrength": 0.75
+  },
+  {
+    "name": "85%",
+    "minimumStrength": 0.75
+  },
+  {
+    "name": "95%",
+    "minimumStrength": 0.75
+  },
+  {
+    "name": "100%",
+    "minimumStrength": 1
+  }
+]

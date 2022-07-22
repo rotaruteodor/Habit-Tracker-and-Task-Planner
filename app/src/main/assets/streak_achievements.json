@@ -1,0 +1,46 @@
+[
+  {
+    "name": "1 Day",
+    "minimumStreak": 1
+  },
+  {
+    "name": "2 Days",
+    "minimumStreak": 2
+  },
+  {
+    "name": "7 Days",
+    "minimumStreak": 7
+  },
+  {
+    "name": "14 Days",
+    "minimumStreak": 14
+  },
+  {
+    "name": "30 days",
+    "minimumStreak": 30
+  },
+  {
+    "name": "45 days",
+    "minimumStreak": 45
+  },
+  {
+    "name": "60 days",
+    "minimumStreak": 60
+  },
+  {
+    "name": "75 days",
+    "minimumStreak": 75
+  },
+  {
+    "name": "100 days",
+    "minimumStreak": 100
+  },
+  {
+    "name": "200 days",
+    "minimumStreak": 200
+  },
+  {
+    "name": "365 days",
+    "minimumStreak": 365
+  }
+]

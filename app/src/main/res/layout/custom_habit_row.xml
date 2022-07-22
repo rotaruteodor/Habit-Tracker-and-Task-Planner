@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayoutCustomHabitRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_corners_transparent_white"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/customHabitRowGuidelineMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        />
+
+
+    <TextView
+        android:id="@+id/tvHabitName"
+        android:layout_width="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnIndividualHabitOptionsMenu"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Walk at least 4 kilometers"
+        android:textSize="20sp"
+        android:fontFamily="@font/russo_one"
+        android:textColor="@color/white"
+        />
+
+    <ImageButton
+        android:id="@+id/btnIndividualHabitOptionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvHabitStreak"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_more_vert_24"
+        android:backgroundTint="@color/transparent"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/tvHabitStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHabitName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/customHabitRowGuidelineMiddle"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Status: Unknown"
+        android:textSize="17sp"
+        android:fontFamily="@font/russo_one"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvHabitStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/customHabitRowGuidelineMiddle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHabitName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Streak: "
+        android:textSize="17sp"
+        android:fontFamily="@font/russo_one"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        app:drawableStartCompat="@drawable/ic_thunder_svg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

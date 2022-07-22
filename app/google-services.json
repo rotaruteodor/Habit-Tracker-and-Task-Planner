@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520451084509",
+    "project_id": "rotaru-teodor-gabriel-projfb",
+    "storage_bucket": "rotaru-teodor-gabriel-projfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520451084509:android:a13be0d52475045df70b34",
+        "android_client_info": {
+          "package_name": "com.example.licentarotaruteodorgabriel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520451084509-p9r9qdq01gdc70jopfi1ssa3oeju52to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCriN6EEen9dz2Rwjg_AHorqELlX-DXZI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520451084509-p9r9qdq01gdc70jopfi1ssa3oeju52to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

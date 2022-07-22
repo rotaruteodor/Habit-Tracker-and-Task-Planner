@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Habit tracker and task planner</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="remember_login_creditentials">Remember me</string>
+    <string name="create_account">Create account</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">E-mail</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="reset_password_check_email_text">Check your e-mail for the reset link</string>
+    <string name="send_email">Send email</string>
+    <string name="tasks">Tasks</string>
+    <string name="habits">Habits</string>
+    <string name="profile">Profile</string>
+    <string name="wrong_credentials">Wrong credentials</string>
+    <string name="email_not_verified_error">This e-mail address has not been confirmed</string>
+    <string name="check_email_for_verifying">Check your email to verify your account</string>
+    <string name="error_sending_verification_email">An error occurred when trying to send you the verification e-mail. Please try again later…</string>
+    <string name="error_sending_password_reset_email">An error occurred when trying to send you the e-mail for reseting your password. Please try again later…</string>
+    <string name="no_internet_error">No internet connection available</string>
+    <string name="statistics"><u>Statistics</u></string>
+    <string name="streaks"><u>Streaks</u></string>
+    <string name="strength"><u>Strength</u></string>
+    <string name="categories_distribution_chart_tag"><u>Categories distribution</u></string>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="habitNumericalComparisonTypes">
+        <item>exactly</item>
+        <item>at least</item>
+        <item>less than</item>
+    </string-array>
+
+    <string-array name="sortTasksCriterias">
+        <item>Due date</item>
+        <item>Priority</item>
+        <item>Name</item>
+    </string-array>
+
+    <string-array name="defaultCategories">
+        <item>Sport</item>
+        <item>Nutrition</item>
+        <item>Health</item>
+        <item>Finance</item>
+        <item>Work</item>
+    </string-array>
+
+    <string-array name="taskPriorities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string-array name="habitDifficulties">
+        <item>Very easy</item>
+        <item>Easy</item>
+        <item>Somewhat easy</item>
+        <item>Average</item>
+        <item>Somewhat hard</item>
+        <item>Hard</item>
+        <item>Very hard</item>
+        <item>Extremely hard</item>
+    </string-array>
+
+    <integer-array name="habitDaysToFormHabit">
+        <item>18</item>
+        <item>34</item>
+        <item>50</item>
+        <item>66</item>
+        <item>113</item>
+        <item>160</item>
+        <item>207</item>
+        <item>254</item>
+    </integer-array>
+
+    <string-array name="unarchivedHabitOptions">
+        <item>Edit</item>
+        <item>Archive</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="archivedHabitOptions">
+        <item>Edit</item>
+        <item>Unarchive</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="doneTaskOptions">
+        <item>Edit</item>
+        <item>Mark as ongoing</item>
+        <item>Delete</item>
+        <item>Mark as done and delete</item>
+    </string-array>
+
+    <string-array name="ongoingTaskOptions">
+        <item>Edit</item>
+        <item>Mark as done</item>
+        <item>Delete</item>
+        <item>Mark as done and delete</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.3875" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/gender_spinner_item.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/login_button_style.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/login_til.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/login_til_style.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/tv_date_of_birth_style.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/font/russo_one.xml" value="0.41770833333333335" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_create_account.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_loading.xml" value="0.3875" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_reset_password.xml" value="0.3875" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/fragment_habits.xml" value="0.3734375" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/layout/fragment_tasks.xml" value="0.3734375" />
+        <entry key="..\:/Users/Administrator/Desktop/LicentaRotaruTeodorGabriel/app/src/main/res/menu/main_bottom_navigation_menu.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/circle_green.xml" value="0.145" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/circle_transparent_white.xml" value="0.1455" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/custom_recycle_view_divider.xml" value="0.1675" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_barchart_svg.xml" value="0.1135" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.145" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_arrow_left_24.xml" value="0.1" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_arrow_right_12.xml" value="0.1135" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.1" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_more_vert_12.xml" value="0.1295" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1295" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_redo_24.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_baseline_repeat_24.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_thunder_svg1.xml" value="0.1295" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_thunder_svg2.xml" value="0.1295" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_thunder_svg3.xml" value="0.1295" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/ic_trophy_svg1.xml" value="0.101" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/login_button_style.xml" value="0.1" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/rectangle_error_red.xml" value="0.137" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/rectangle_main_green.xml" value="0.137" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/rectangle_transparent_white.xml" value="0.1315" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_20.xml" value="0.1295" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_30.xml" value="0.124" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_green.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_green_white_border.xml" value="0.1385" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_green_white_thin_border.xml" value="0.1385" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_red.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_transparent_black.xml" value="0.11" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_transparent_white.xml" value="0.111" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_white_border.xml" value="0.1125" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/round_corners_white_green_border.xml" value="0.1315" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/tv_date_of_birth_style.xml" value="0.1545" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/drawable/white_border_button.xml" value="0.1565" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_add_habit.xml" value="0.1566265060240964" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_add_task.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_create_account.xml" value="0.22" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_edit_habit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_habit_statistics.xml" value="0.25" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_redirect.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_reset_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_snooze_task_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/activity_tasks_statistics.xml" value="0.25" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/add_numerical_realization_custom_view.xml" value="0.25" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_categories_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_category_row.xml" value="0.1671875" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_habit_list_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_habit_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_main_drop_down_menu_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_task_row.xml" value="0.2696245733788396" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/custom_toast.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/fragment_habits.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/fragment_tasks.xml" value="0.25" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/hour_picker_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/main_custom_toast.xml" value="0.25" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/number_picker_custom_layout.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/layout/numerical_comparison_type_spinner_layout.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/menu/habits_drop_down_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/menu/main_bottom_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/menu/main_drop_down_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/menu/sort_tasks_criteria_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/menu/sort_tasks_criteria_menu_de_sters.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Gabir/Desktop/FACULTATE/LICENTA/LicentaRotaruTeodorGabriel/app/src/main/res/menu/taskssss.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

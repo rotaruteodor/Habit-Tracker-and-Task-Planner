@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/habitsBotNavMenuItem"
+        android:title="@string/habits"
+        android:icon="@drawable/ic_baseline_repeat_24"
+        />
+    <item
+        android:id="@+id/tasksBotNavMenuItem"
+        android:title="@string/tasks"
+        android:icon="@drawable/ic_baseline_pending_actions_24"
+        />
+    <item
+        android:id="@+id/profileBotNavMenuItem"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+</menu>

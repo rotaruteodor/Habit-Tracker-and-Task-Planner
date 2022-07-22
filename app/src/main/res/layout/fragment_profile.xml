@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background_image"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineMiddle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <TextView
+        android:id="@+id/tvUserNameAndAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/round_corners_white_border"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Teodor Rotaru, 21"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineTop" />
+
+    <TextView
+        android:id="@+id/tvEditProfileInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Edit profile information"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_edit_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineMiddle"
+        app:layout_constraintTop_toBottomOf="@id/guidelineTop2" />
+
+
+    <TextView
+        android:id="@+id/tvProfileChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Change password"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_password_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineMiddle"
+        app:layout_constraintTop_toBottomOf="@id/tvEditProfileInformation" />
+
+
+    <TextView
+        android:id="@+id/tvProfileSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Sign out"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_logout_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineMiddle"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileChangePassword" />
+
+
+    <TextView
+        android:id="@+id/tvProfileActiveHabits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Active habits:"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineMiddle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineMiddle2" />
+
+    <TextView
+        android:id="@+id/tvProfileActiveTasks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Pending tasks:"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineMiddle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileActiveHabits" />
+
+
+    <TextView
+        android:id="@+id/tvProfileCategories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Categories"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileActiveTasks" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProfileCategories"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_corners_white_border"
+        app:layout_constraintBottom_toTopOf="@id/btnAddCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileCategories" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilAddCategoryName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:boxBackgroundColor="@color/main_transparent_white"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/btnAddCategory"
+        app:layout_constraintEnd_toStartOf="@id/btnAddCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnAddCategory">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietAddCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/russo_one"
+            android:gravity="center"
+            android:hint="Category name"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/main_transparent_white"
+        android:src="@drawable/ic_baseline_add_24"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tilAddCategoryName"
+        app:layout_constraintTop_toBottomOf="@id/recyclerViewProfileCategories" />
+
+    <ImageView
+        android:id="@+id/imgViewNoCategories"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_corners_white_border"
+        android:src="@drawable/no_recyc_items_to_replace"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/btnAddCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileCategories" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayoutCustomTaskRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corners_green">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/customTaskRowGuidelineMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <TextView
+        android:id="@+id/tvTaskName"
+        android:layout_width="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="Walk the dog"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/btnIndividualTaskOptionsMenu"
+        app:layout_constraintEnd_toStartOf="@id/btnIndividualTaskOptionsMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnIndividualTaskOptionsMenu" />
+
+    <ImageButton
+        android:id="@+id/btnIndividualTaskOptionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/transparent"
+        android:src="@drawable/ic_baseline_more_vert_12"
+        app:layout_constraintBottom_toTopOf="@id/tvTaskPriority"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvTaskName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTaskDueDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/russo_one"
+        android:gravity="start"
+        android:layout_marginStart="25sp"
+        android:text="Due in: 5d, 4h, 11m"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/customTaskRowGuidelineMiddle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskName" />
+
+
+    <TextView
+        android:id="@+id/tvTaskPriority"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/russo_one"
+        android:gravity="end"
+        android:text="Priority: 4"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/customTaskRowGuidelineMiddle"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

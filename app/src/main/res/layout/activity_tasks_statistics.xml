@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="226dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_black"
+        tools:context=".activities.HabitStatisticsActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMiddleVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMiddleVertical15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMiddleVertical85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <TextView
+            android:id="@+id/tvStatisticsTotalTasksInHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_corners_green_border"
+            android:fontFamily="@font/russo_one"
+            android:text="All tasks in history\n46"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@id/guidelineMiddleVertical85"
+            app:layout_constraintStart_toStartOf="@id/guidelineMiddleVertical15"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/tvTotalCompleted"
+            app:layout_constraintEnd_toEndOf="@id/tvStatisticsTotalTasksInHistory"
+            app:layout_constraintStart_toStartOf="@id/tvStatisticsTotalTasksInHistory"
+            app:layout_constraintTop_toBottomOf="@id/tvStatisticsTotalTasksInHistory" />
+
+        <TextView
+            android:id="@+id/tvTotalCompleted"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_corners_green_border"
+            android:fontFamily="@font/russo_one"
+            android:text="Completed\n54"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/guidelineMiddleVertical85"
+            app:layout_constraintStart_toStartOf="@id/guidelineMiddleVertical15"
+            app:layout_constraintTop_toBottomOf="@id/tvStatisticsTotalTasksInHistory" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/tvTasksCompletedBeforeDueDate"
+            app:layout_constraintEnd_toEndOf="@id/tvTotalCompleted"
+            app:layout_constraintStart_toStartOf="@id/tvTasksCompletedBeforeDueDate"
+            app:layout_constraintTop_toBottomOf="@id/tvTotalCompleted" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/tvTasksCompletedBeforeDueDate"
+            app:layout_constraintEnd_toEndOf="@id/tvTasksCompletedAfterDueDate"
+            app:layout_constraintStart_toStartOf="@id/tvTotalCompleted"
+            app:layout_constraintTop_toBottomOf="@id/tvTotalCompleted" />
+
+
+        <TextView
+            android:id="@+id/tvTasksCompletedBeforeDueDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_corners_green_border"
+            android:fontFamily="@font/russo_one"
+            android:text="Before due date\n39"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/guidelineMiddleVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTotalCompleted" />
+
+
+        <TextView
+            android:id="@+id/tvTasksCompletedAfterDueDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_corners_green_border"
+            android:fontFamily="@font/russo_one"
+            android:text="After due date\n39"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guidelineMiddleVertical"
+            app:layout_constraintTop_toBottomOf="@id/tvTotalCompleted" />
+
+
+        <TextView
+            android:id="@+id/tvPendingTasks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_corners_green_border"
+            android:fontFamily="@font/russo_one"
+            android:text="Pending tasks\n25"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/guidelineMiddleVertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTasksCompletedBeforeDueDate" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="@id/tvPendingTasks"
+            app:layout_constraintEnd_toStartOf="@id/tvAveragePriority"
+            app:layout_constraintStart_toEndOf="@id/tvPendingTasks"
+            app:layout_constraintTop_toTopOf="@id/tvPendingTasks" />
+
+        <TextView
+            android:id="@+id/tvAveragePriority"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_corners_green_border"
+            android:fontFamily="@font/russo_one"
+            android:text="Average priority\n8.5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvPendingTasks"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guidelineMiddleVertical"
+            app:layout_constraintTop_toTopOf="@id/tvPendingTasks" />
+
+
+        <TextView
+            android:id="@+id/tvTasksScoreTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/russo_one"
+            android:text="Overall score"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvPendingTasks" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChartTasksScore"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTasksScoreTag" />
+
+        <TextView
+            android:id="@+id/tvStatisticsTaskCategoryDistributionTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/russo_one"
+            android:text="@string/categories_distribution_chart_tag"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pieChartTasksScore" />
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartTaskCategories"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvStatisticsTaskCategoryDistributionTag" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_transparent_white">#5EFFFFFF</color>
+    <color name="transparent_dark_green">#4D43A047</color>
+    <color name="transparent_light_blue">#66039BE5</color>
+    <color name="main_green">#24972F</color>
+    <color name="happy_green">#9A28D63F</color>
+    <color name="error_red">#ED1111</color>
+    <color name="very_dark_green">#135019</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#7C7A7A</color>
+    <color name="light_black">#161616</color>
+    <color name="transparent_black">#8F000000</color>
+    <color name="strong_orange">#F4511E</color>
+    <color name="modern_blue">#2c90f2</color>
+    <color name="very_transparent_white">#33FFFFFF</color>
+    <color name="test">#D58206</color>
+    <color name="burgundy">#542121</color>
+
+    <string-array name="tasks_and_habits_colors">
+        <item>#B2FFFFFF</item>
+        <item>#80FFFFFF</item>
+        <item>#4DFFFFFF</item>
+        <item>#33FFFFFF</item>
+        <item>#1AFFFFFF</item>
+        <item>#161616</item>
+        <item>#B3161616</item>
+        <item>#80161616</item>
+        <item>#4D161616</item>
+        <item>#1A161616</item>
+        <item>#CC0909</item>
+        <item>#B3CC0909</item>
+        <item>#80CC0909</item>
+        <item>#4DCC0909</item>
+        <item>#1ACC0909</item>
+        <item>#D58206</item>
+        <item>#B3D58206</item>
+        <item>#80D58206</item>
+        <item>#4DD58206</item>
+        <item>#1AD58206</item>
+        <item>#20724f</item>
+        <item>#B220724F</item>
+        <item>#8020724F</item>
+        <item>#4D20724F</item>
+        <item>#1A20724F</item>
+        <item>#2c90f2</item>
+        <item>#B32c90f2</item>
+        <item>#802c90f2</item>
+        <item>#4D2c90f2</item>
+        <item>#1A2c90f2</item>
+        <item>#85059C</item>
+        <item>#B385059C</item>
+        <item>#8085059C</item>
+        <item>#4D85059C</item>
+        <item>#1A85059C</item>
+        <item>#840b0c</item>
+        <item>#B3840b0c</item>
+        <item>#80840b0c</item>
+        <item>#4D840b0c</item>
+        <item>#1A840b0c</item>
+        <item>#D1D11D</item>
+        <item>#B3D1D11D</item>
+        <item>#80D1D11D</item>
+        <item>#4DD1D11D</item>
+        <item>#1AD1D11D</item>
+    </string-array>
+
+    <string-array name="tasks_bar_chart_colors">
+        <item>#20724f</item>
+        <item>#2c90f2</item>
+        <item>#85059C</item>
+        <item>#D1D11D</item>
+        <item>#FFFFFF</item>
+        <item>#CC0909</item>
+        <item>#D58206</item>
+        <item>#840b0c</item>
+    </string-array>
+</resources>
